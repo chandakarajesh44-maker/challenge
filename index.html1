@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Supermart Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Supermart</h2>
+    <ul>
+      <li><i class="fas fa-tachometer-alt"></i> Dashboard</li>
+      <li><i class="fas fa-box"></i> Products</li>
+      <li><i class="fas fa-shopping-cart"></i> Orders</li>
+      <li><i class="fas fa-users"></i> Customers</li>
+      <li><i class="fas fa-chart-line"></i> Analytics</li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <header>
+      <h1>Dashboard</h1>
+    </header>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Total Sales</h3>
+        <p>$12,345</p>
+      </div>
+      <div class="card">
+        <h3>Orders</h3>
+        <p>230</p>
+      </div>
+      <div class="card">
+        <h3>Inventory</h3>
+        <p>1,245 Items</p>
+      </div>
+      <div class="card">
+        <h3>Customers</h3>
+        <p>875</p>
+      </div>
+    </div>
+
+    <section class="data-section">
+      <h2>Recent Orders</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Order ID</th>
+            <th>Customer</th>
+            <th>Items</th>
+            <th>Total</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>#1001</td>
+            <td>John Doe</td>
+            <td>5</td>
+            <td>$120</td>
+            <td><span class="status delivered">Delivered</span></td>
